@@ -1,8 +1,7 @@
 name: .NET Core
 
 on:
-  push:
-    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -15,9 +14,8 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.403
-    - name: Pack applciation
-      run: pack
-    - name: Setup NuGet.exe for use with actions
+        run: dotnet restore && dotnet build --no-restore -c Release && dotnet pack --no-build -c src\CheckMarkdownLinks
+    - name: Publish nupkg
       # You may pin to the exact commit or the version.
       # uses: NuGet/setup-nuget@04b0c2b8d1b97922f67eca497d7cf0bf17b8ffe1
       uses: NuGet/setup-nuget@v1.0.5
