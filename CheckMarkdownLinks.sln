@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30626.31
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckMarkdownLinks", "src\CheckMarkdownLinks\CheckMarkdownLinks.csproj", "{6377FDF2-7987-4B21-9BBD-D5557DB53B51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckMarkdownLinks.Tests", "test\CheckMarkdownLinks.Tests\MarkdownLinkChecker.Tests.csproj", "{224E0735-62D1-499C-ABC7-EE3B77FE6A39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".SolutionItems", ".SolutionItems", "{7EDF2844-0568-44FE-8CC5-DA2B6695F9B6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		global.json = global.json
+		GlobalAssemblyInfo.cs = GlobalAssemblyInfo.cs
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6377FDF2-7987-4B21-9BBD-D5557DB53B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6377FDF2-7987-4B21-9BBD-D5557DB53B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6377FDF2-7987-4B21-9BBD-D5557DB53B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6377FDF2-7987-4B21-9BBD-D5557DB53B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224E0735-62D1-499C-ABC7-EE3B77FE6A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224E0735-62D1-499C-ABC7-EE3B77FE6A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224E0735-62D1-499C-ABC7-EE3B77FE6A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224E0735-62D1-499C-ABC7-EE3B77FE6A39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BBED20B-54A5-4C60-9031-8C7BC4C2A3CF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Description></Description>
+    <AssemblyTitle>CheckMarkdownLinks</AssemblyTitle>
+    <AssemblyName>CheckMarkdownLinks</AssemblyName>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Authors></Authors>
+    <LangVersion>8</LangVersion>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>portable</DebugType>
+    <PackageId></PackageId>
+    <PackageTags>markdown;wiki</PackageTags>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PublishRepositoryUrl></PublishRepositoryUrl>
+    <PackageLicenseFile></PackageLicenseFile>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>check-md-links</ToolCommandName>
+    <PackageOutputPath>..\..\artifacts\nupkg</PackageOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\GlobalAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <VersionPrefix>1.0.1</VersionPrefix>
+    <VersionSuffix>alpha</VersionSuffix>
+    <Version>1.0.1-alpha</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+  </ItemGroup>
+
+</Project>
