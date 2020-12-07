@@ -22,10 +22,11 @@ output will be similar to:
 ## Open Issues
 
 - [x] add build.cmd for easy build
+- [ ] add demo wiki
 - [ ] additional tests
 - [ ] Support for additional markdown extension such as *.markdown
 - [ ] Decent checking of web URL with correct return code.
 - [ ] Checking of document anchor links
 - [x] add verbose flag
-- [ ] Github action to build and publish package
+- [x] Github action to build and publish package
 - [ ] False positives happen due to case insensitive `File.Exists` check. Can probable be done with a `PInvoke` on [FindFirstFileEx](http://www.pinvoke.net/default.aspx/kernel32/findfirstfileex.html)
