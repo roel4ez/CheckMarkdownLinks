@@ -1,3 +1,5 @@
+![.NET Core](https://github.com/roel4ez/CheckMarkdownLinks/workflows/.NET%20Core/badge.svg?branch=main)
+
 ## Getting started
 
 1. For example, pull the Demo-Wiki to <path>\Demo-Wiki.
