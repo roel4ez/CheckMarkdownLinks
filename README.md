@@ -21,9 +21,9 @@ output will be similar to:
 
 - [x] add build.cmd for easy build
 - [ ] additional tests
-- [ ] Support for additional markdown extension such ask *.markdown
+- [ ] Support for additional markdown extension such as *.markdown
 - [ ] Decent checking of web URL with correct return code.
 - [ ] Checking of document anchor links
 - [x] add verbose flag
 - [ ] Github action to build and publish package
-- [ ] False positives happen due to cae insensitive `File.Exists` check. Can probable be done with a `PInvoke` on [FindFirstFileEx](http://www.pinvoke.net/default.aspx/kernel32/findfirstfileex.html)
+- [ ] False positives happen due to case insensitive `File.Exists` check. Can probable be done with a `PInvoke` on [FindFirstFileEx](http://www.pinvoke.net/default.aspx/kernel32/findfirstfileex.html)
