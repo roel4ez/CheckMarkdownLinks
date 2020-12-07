@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30626.31
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckMarkdownLinks", "src\CheckMarkdownLinks\CheckMarkdownLinks.csproj", "{6377FDF2-7987-4B21-9BBD-D5557DB53B51}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckMarkdownLinks.Tests", "test\CheckMarkdownLinks.Tests\MarkdownLinkChecker.Tests.csproj", "{224E0735-62D1-499C-ABC7-EE3B77FE6A39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckMarkdownLinks.Tests", "test\CheckMarkdownLinks.Tests\CheckMarkdownLinks.Tests.csproj", "{224E0735-62D1-499C-ABC7-EE3B77FE6A39}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".SolutionItems", ".SolutionItems", "{7EDF2844-0568-44FE-8CC5-DA2B6695F9B6}"
 	ProjectSection(SolutionItems) = preProject

@@ -13,5 +13,5 @@ goto :EOF
 goto :EOF
 
 :test
-dotnet test --no-build -c %1 test\MarkdownLinkChecker.Tests
+dotnet test --no-build -c %1 test\CheckMarkdownLinks.Tests
 goto :EOF
