@@ -32,5 +32,5 @@ jobs:
         # NuGet API Key to configure.
         nuget-api-key: ${{ secrets.NUGET_PUSH_API }}
     - name: Publish nuget
-      run: nuget push artifacts/*.nupkg -Verbosity detailed
+      run: nuget push artifacts/*/*.nupkg -Verbosity detailed -Source https://api.nuget.org/v3/index.json
       
